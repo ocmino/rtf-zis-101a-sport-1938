@@ -10,6 +10,7 @@ import { Glitch } from "@react-three/postprocessing";
 import { GlitchMode } from "postprocessing";
 import CarLowPoly from "./CarLowPoly";
 import Interface from "./Interface";
+import { Affix } from "@mantine/core";
 
 function App() {
   return (

@@ -44,9 +44,14 @@ export default function Interface() {
     <div style={styles.container}>
       <Affix>
         <div style={styles.dateTimeContainer}>
-          <h1 style={styles.dateTime}>{dateTime.toLocaleTimeString()}</h1>
-          <h1 style={styles.dateTime}>{dateTime.toLocaleDateString()}</h1>
-          <h1 style={styles.dateTime}>CAM 1</h1>
+          <p style={styles.dateTime}>{dateTime.toLocaleTimeString()}</p>
+          <p style={styles.dateTime}>{dateTime.toLocaleDateString()}</p>
+          <p style={styles.dateTime}>CAM 1</p>
+        </div>
+      </Affix>
+      <Affix position={{ bottom: 0, left: 10 }}>
+        <div style={styles.dateTimeContainer}>
+          <p style={styles.dateTime}>CCTV</p>
         </div>
       </Affix>
     </div>
