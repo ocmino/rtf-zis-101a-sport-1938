@@ -17,8 +17,21 @@ function App() {
       <Canvas>
         <Environment
           re
-          files="/drachenfels_cellar_2k.hdr"
+          files="/dikhololo_night_2k.hdr"
           ground={{ height: 32 / 8, radius: 130 / 8 }}
+        />
+
+        <directionalLight
+          position={[0, 10, 0]}
+          intensity={0.2}
+          castShadow
+          shadow-mapSize-width={1024}
+          shadow-mapSize-height={1024}
+          shadow-camera-far={50}
+          shadow-camera-left={-10}
+          shadow-camera-right={10}
+          shadow-camera-top={10}
+          shadow-camera-bottom={-10}
         />
 
         <ContactShadows
