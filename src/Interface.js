@@ -24,7 +24,7 @@ const styles = {
   dateTime: {
     color: "white",
     margin: "0",
-    fontSize: "0.5rem",
+    fontSize: "1rem",
     fontWeight: "bold",
     textShadow: "0 0 5px white",
   },
