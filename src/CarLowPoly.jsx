@@ -7,7 +7,7 @@ Source: https://sketchfab.com/3d-models/zis-101a-sport-1938-a361c0f7b7e041fc8f34
 Title: ZIS-101A Sport (1938)
 */
 
-import React, { useRef } from 'react'
+import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 const CarLowPoly = (props) => {
