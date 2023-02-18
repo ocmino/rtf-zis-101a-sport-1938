@@ -10,6 +10,7 @@ Title: ZIS-101A Sport (1938)
 import React from "react";
 import { useGLTF } from "@react-three/drei";
 
+
 const CarLowPoly = (props) => {
   const { nodes, materials } = useGLTF("/models/zis101asport1938.gltf");
 
