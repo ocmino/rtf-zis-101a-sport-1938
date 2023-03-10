@@ -17,7 +17,7 @@ function App() {
       <Canvas>
         <Environment
           re
-          files="/dikhololo_night_2k.hdr"
+          files="/drachenfels_cellar_2k.hdr"
           ground={{ height: 32 / 8, radius: 130 / 8 }}
         />
 
